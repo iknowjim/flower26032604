@@ -55,7 +55,7 @@ export default function PlantDiseaseAI() {
             onClick={() => document.getElementById('file')?.click()}
             className="border-2 border-dashed border-emerald-300 rounded-3xl p-12 text-center cursor-pointer hover:border-emerald-500 transition-all"
           >
-            <input id="file" type="file" accept="image/*" capture="camera" className="hidden" onChange={handleFile} />
+            <input id="file" type="file" accept="image/*" capture className="hidden" onChange={handleFile} />
             <div className="mx-auto w-24 h-24 bg-emerald-100 rounded-3xl flex items-center justify-center text-6xl mb-4">📸</div>
             <p className="text-xl font-medium text-emerald-700">点击上传花卉照片</p>
             <p className="text-sm text-gray-500 mt-3">叶片或病斑清晰效果更好</p>
